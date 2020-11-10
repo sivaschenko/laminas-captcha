@@ -20,9 +20,15 @@
     },
     "extra": {
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sivaschenko/laminas-math"
+        }
+    ],
     "require": {
         "php": "^5.6 || ^7.0 || ~8.0.0",
-        "laminas/laminas-math": "^2.7 || ^3.0",
+        "laminas/laminas-math": "dev-php8",
         "laminas/laminas-stdlib": "^3.2.1",
         "laminas/laminas-zendframework-bridge": "^1.0"
     },
